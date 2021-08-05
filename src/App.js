@@ -22,13 +22,13 @@ const App = ({ selected, editItem, admin }) => {
 	const [username, setUsername] = useState('');
 
 	useEffect(() => {
-		axios.get('http://localhost:8000/lists').then((res) => {
+		axios.get('https://app-rendezvous.herokuapp.com/lists').then((res) => {
 			setLists(res.data);
 		});
 	}, []);
 
 	useEffect(() => {
-		axios.get('http://localhost:8000/users').then((res) => {
+		axios.get('https://app-rendezvous.herokuapp.com/users').then((res) => {
 			setUsers(res.data);
 		});
 	}, []);

@@ -24,7 +24,7 @@ const CreateInput = ({ addItem, editedResto, editItem }) => {
 			image !== '')
 		) {
 			axios
-				.post('http://app-rendezvous.herokuapp.com/lists', {
+				.post('https://app-rendezvous.herokuapp.com/lists', {
 					image: image,
 					type: type,
 					name: name,
@@ -67,7 +67,7 @@ const CreateInput = ({ addItem, editedResto, editItem }) => {
 			image !== '')
 		) {
 			axios
-				.put('http://app-rendezvous.herokuapp.com/lists/' + _id, {
+				.put('https://app-rendezvous.herokuapp.com/lists/' + _id, {
 					image: image,
 					type: type,
 					name: name,

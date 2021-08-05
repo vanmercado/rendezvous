@@ -5,7 +5,7 @@ const Users = ({ item, markSuggested, markFollowing }) => {
 	const updateBtnHandler = (_id) => {
 		if (item.status === 'following') {
 			axios
-				.put('http://app-rendezvous.herokuapp.com/users/' + _id, {
+				.put('https://app-rendezvous.herokuapp.com/users/' + _id, {
 					status: 'suggested',
 				})
 				.then((res) => {
@@ -15,7 +15,7 @@ const Users = ({ item, markSuggested, markFollowing }) => {
 		}
 		if (item.status === 'suggested') {
 			axios
-				.put('http://app-rendezvous.herokuapp.com/users/' + _id, {
+				.put('https://app-rendezvous.herokuapp.com/users/' + _id, {
 					status: 'following',
 				})
 				.then((res) => {

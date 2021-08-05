@@ -11,7 +11,7 @@ const ShopNames = () => {
 	const [lists, setLists] = useState([]);
 
 	useEffect(() => {
-		axios.get('http://app-rendezvous.herokuapp.com/lists').then((res) => {
+		axios.get('https://app-rendezvous.herokuapp.com/lists').then((res) => {
 			setLists(res.data);
 		});
 	}, []);

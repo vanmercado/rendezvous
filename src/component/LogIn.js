@@ -14,7 +14,7 @@ const LogIn = ({ admin, loginAdmin }) => {
 	const [boxes, setBoxes] = useState([]);
 
 	useEffect(() => {
-		axios.get('http://app-rendezvous.herokuapp.com/users').then((res) => {
+		axios.get('https://app-rendezvous.herokuapp.com/users').then((res) => {
 			setUsers(res.data);
 		});
 	}, []);

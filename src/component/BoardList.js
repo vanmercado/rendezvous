@@ -12,7 +12,7 @@ const BoardList = ({ list, deleteNewItem, editItem }) => {
 
 	const deleteBtnHandler = (_id) => {
 		axios
-			.delete('http://app-rendezvous.herokuapp.com/lists/' + _id)
+			.delete('https://app-rendezvous.herokuapp.com/lists/' + _id)
 			.then((res) => {
 				deleteNewItem(_id);
 				alert(`${list.name} is deleted.  category: ${list.type}`);

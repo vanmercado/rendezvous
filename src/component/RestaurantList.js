@@ -12,7 +12,7 @@ const RestaurantList = ({ ShopList, admin }) => {
 	const [lists, setLists] = useState([]);
 
 	useEffect(() => {
-		axios.get('http://app-rendezvous.herokuapp.com/lists').then((res) => {
+		axios.get('https://app-rendezvous.herokuapp.com/lists').then((res) => {
 			setLists(res.data);
 		});
 	}, []);
@@ -47,7 +47,7 @@ const RestaurantList = ({ ShopList, admin }) => {
 												id={`dropdown-button-drop-${direction}`}
 												drop={direction}
 												variant=' border border-white bg-white text-info btn-outline-light'
-												title={` vanarden `}
+												title={` Admin `}
 											>
 												<Dropdown.Item eventKey='1'>
 													<Link
