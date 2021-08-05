@@ -29,14 +29,13 @@ const BoardList = ({ list, deleteNewItem, editItem }) => {
 
 			<td>
 				<div>
-					{list.show === 'active' ? (
-						<button
-							className='btn btn-warning mr-3'
-							onClick={() => alert('Please edit on Database Thanks!')}
-						>
-							Edit
-						</button>
-					) : (
+					{list.show === 'active' ? // <button
+					// 	className='btn btn-warning mr-3'
+					// 	onClick={() => alert('Please edit on Database Thanks!')}
+					// >
+					// 	Edit
+					// </button>
+					null : (
 						<Link to='/admin/dashboard/create'>
 							<button
 								className='btn btn-warning mr-3'
@@ -46,14 +45,13 @@ const BoardList = ({ list, deleteNewItem, editItem }) => {
 							</button>
 						</Link>
 					)}
-					{list.show === 'active' ? (
-						<button
-							className='btn btn-outline-danger'
-							onClick={() => alert('Please delete on Database Thanks!')}
-						>
-							Delete
-						</button>
-					) : (
+					{list.show === 'active' ? // <button
+					// 	className='btn btn-outline-danger'
+					// 	onClick={() => alert('Please delete on Database Thanks!')}
+					// >
+					// 	Delete
+					// </button>
+					null : (
 						<div className='d-inline'>
 							<button
 								className='btn btn-outline-danger'
