@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	scroll-behavior: smooth;
+}
+
+.div-minilogo {
+	text-align: center;
+	padding: 1% 1% 0 1%;
+}
+.minilogo {
+	width: 250px;
+}
+/* .admin {
+	border: 1px solid green;
+} */
+.admin-search {
+	vertical-align: middle;
+}
+a {
+	text-decoration: none;
+}

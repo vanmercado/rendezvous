@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	scroll-behavior: smooth;
+}
+
+.div-minilogo {
+	text-align: center;
+	padding: 1% 1% 0 1%;
+}
+.minilogo {
+	width: 250px;
+}
+.profile {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.profile-image {
+	width: 150px;
+}
+.card {
+	text-align: center;
+	width: 900px;
+}
+.card-body h2 {
+}
+/* BODY  */
+.profile-body {
+	/* border: 1px solid green; */
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5%;
+}
+/* Left  */
+.my-reviews {
+	width: 220px;
+}
+.item-name {
+	font-size: 30px;
+	color: rgba(255, 0, 0, 0.733);
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(255, 0, 0, 0.733);
+}
+.item-name:hover {
+	color: rgba(9, 9, 145, 0.671);
+	text-decoration: underline;
+}
+.name {
+	background-color: rgba(255, 0, 0, 0.211);
+	padding: 10px;
+	border-top: 0.5px solid rgba(0, 0, 0, 0.17);
+}
+span {
+	background: rgba(235, 58, 58, 0.231);
+	width: 25px;
+}
+/* BODY CENTER  */
+.profile-center {
+	margin: 0 1%;
+}
+.center {
+	border: 2px solid rgba(255, 0, 0, 0.514);
+	border-radius: 10px;
+	width: 650px;
+	/* height: 300px; */
+}
+.div-item-image {
+	/* border: 1px solid green; */
+}
+.item-pic {
+	width: 120px;
+}
+.div-item-comment {
+	/* border: 1px solid blue; */
+}
+textarea:focus {
+	box-shadow: 0px 0px 5px red;
+	/* border: 0.5px solid rgba(0, 0, 0, 0); */
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+/* BODY RIGHT  */
+.profile-right {
+	width: 220px;
+	/* height: 500px; */
+}
+.p-follow {
+	width: 220px;
+}
+.user-picture {
+	width: 45px;
+	height: 35px;
+	border-radius: 100%;
+}
+.user-del-btn {
+	height: 18px;
+	cursor: pointer;
+}
+.user-del-btn:hover {
+	transform: scale(1.5);
+}
+.test-user {
+	border-bottom: 1px solid rgba(128, 128, 128, 0.258);
+}
+.test-user:hover {
+	background-color: rgba(52, 42, 41, 0.061);
+}
+.text-info:hover {
+	/* text-decoration: none; */
+	cursor: pointer;
+	transform: scale(1.2);
+}
+.show-all {
+	cursor: pointer;
+}
+.show-all:hover {
+	background-color: rgba(128, 128, 128, 0.074);
+	color: orange;
+}
+.edit-profile {
+	cursor: pointer;
+}

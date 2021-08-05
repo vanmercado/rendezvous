@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main-details {
+	padding: 1% 13%;
+}
+.converge {
+	border: 2px solid rgba(255, 0, 0, 0.514);
+	border-radius: 5px;
+	padding: 1.4%;
+	margin-bottom: 15px;
+}
+.converge-div {
+	border-bottom: 1px solid rgba(255, 0, 0, 0.377);
+	display: flex;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+}
+.converge-img {
+	margin-right: 80px;
+}
+.a-offer-name {
+	text-decoration: none;
+}
+.offer-type {
+	margin-bottom: 15px;
+}
+.offer-name {
+	color: rgba(255, 0, 0, 0.733);
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.offer-name:hover {
+	color: rgba(9, 9, 145, 0.671);
+	text-decoration: underline;
+}
+.overview {
+	display: flex;
+	justify-content: space-between;
+}
+.converge-cost,
+.converge-hours {
+	display: flex;
+	border-top: 0.5px solid rgba(0, 0, 0, 0.185);
+	padding-top: 5px;
+}
+
+.div1-inner {
+	width: 10%;
+}
+.div2-inner {
+	width: 85%;
+}
+
+.converge-detail {
+	width: 33%;
+}
+
+.converge-detail-p {
+	font-size: 22px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-bottom: 12px;
+}
+#a-view-btn {
+	text-decoration: none;
+}
+.converge-view-btn {
+	padding: 7px 0;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: rgba(255, 0, 0, 0.692);
+	color: black;
+	font-size: 17px;
+	text-decoration: none;
+}
+.converge-view-btn:hover {
+	background-color: rgb(255, 0, 0);
+}
+.review-box {
+	border: 2px solid rgba(255, 0, 0, 0.514);
+	border-radius: 5px;
+}
+.border-bottom-box {
+	border-bottom: 1px solid rgba(255, 0, 0, 0.514);
+}
+.testuser-img {
+	width: 50px;
+}
+.review-box-name {
+	padding-top: 5px;
+}

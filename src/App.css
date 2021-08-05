@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App-header {
+	display: flex;
+	justify-content: center;
+}
+
+.App-converge {
+	text-align: center;
+	color: rgba(255, 0, 0, 0.747);
+
+	width: 40%;
+	margin-right: 35px;
+	margin-top: 7%;
+}
+.logo {
+	width: 400px;
+}
+.click:hover {
+	transform: scale(1.1);
+	transition: 1s;
+	box-shadow: -1px 1px 5px rgba(255, 0, 0, 0.432);
+}
+.App-converge-view-btn {
+	background-color: rgba(255, 0, 0, 0.685);
+	border: none;
+	padding: 8px 13px;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.562);
+	cursor: pointer;
+	margin-top: 15px;
+}
+.App-converge-view-btn:hover {
+	background-color: rgba(255, 0, 0, 0.925);
+}
+/* FORMS  */
+.nav {
+}
+.nav-item {
+	width: 50%;
+	text-align: center;
+}
+.nav-link {
+	cursor: pointer;
+	font-size: 20px;
+	color: rgba(255, 0, 0, 0.747);
+}
+.forms {
+	width: 40%;
+	margin-top: 7%;
+}
+
+.forms-div-border {
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.568);
+	width: 100%;
+	padding: 2px 70px;
+}
+.forms-div-border:hover {
+	border: 1px solid rgba(128, 128, 128, 0.692);
+	border-bottom: white;
+	border-radius: 2px;
+	color: red;
+}
+.log-in,
+.sign-up {
+	text-decoration: none;
+	width: 50%;
+	color: rgba(255, 0, 0, 0.575);
+}
+
+.forms-inner {
+	padding: 15px 80px;
+	color: rgba(0, 0, 0, 0.788);
+}

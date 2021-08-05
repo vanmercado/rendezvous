@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.div-1 {
+	text-align: center;
+	padding-top: 10px;
+}
+.minilogo {
+	width: 250px;
+}
+.search-bar {
+	text-align: right;
+	padding-right: 30px;
+}
+.search-input {
+	font-size: 18px;
+	padding: 5px 10px;
+	vertical-align: middle;
+	border-radius: 3px;
+	border: 0.5px solid rgba(0, 0, 0, 0.322);
+	margin-right: 8px;
+}
+
+.list-a-login {
+	text-decoration: none;
+	color: rgba(255, 0, 0, 0.733);
+}
+.list-a-login:hover {
+	color: rgba(0, 0, 255, 0.692);
+}
+/* main  */
+.main-section {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+.main-listnames {
+	padding: 0px 15px;
+	margin-right: 10px;
+	width: 18%;
+}
+.a-item-link {
+	text-decoration: none;
+	font-size: 17px;
+	color: rgba(255, 0, 0, 0.623);
+}
+.a-item-link:hover {
+	text-decoration: underline;
+	color: rgba(10, 10, 151, 0.685);
+}
+.main-link {
+	padding: 13px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+	text-decoration: none;
+}
+.main-link:hover {
+	background: rgba(231, 231, 231, 0.425);
+}
+.main-shops {
+	width: 55%;
+}

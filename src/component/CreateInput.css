@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.selectCategory {
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid rgba(0, 0, 0, 0.197);
+}
+#add-input {
+	box-shadow: none;
+}
+#add-input:focus {
+	border: 1px solid rgba(255, 0, 0, 0.047);
+	box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.245);
+}
